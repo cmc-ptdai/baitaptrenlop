@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 2000px;
+    font-size: 60px;
+}
+.color {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: red;
+}
+.color div {
+    background-color : green;
+    display: flex ;
+    width: 30%;
+    border: 2px solid black;
+}

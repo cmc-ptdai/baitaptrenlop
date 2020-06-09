@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 2000px;
+}
+ul.menu {
+    width: 500px;
+    margin: 0 auto;
+}
+ul.menu>li {
+    display: inline-block;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 40px;
+    background-color: green;
+    position: relative;
+
+}
+ul.menu>li>ul {
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: none;
+}
+ul.menu>li:hover>ul {
+    display: block;
+}
+ul.menu li ul ul{
+    width: 200px;
+    background-color: seagreen;
+    display: none;
+}
+ul.menu li ul li:hover ul {
+    display: block;
+}

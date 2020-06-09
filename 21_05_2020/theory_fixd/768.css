@@ -1,0 +1,73 @@
+.background {
+    display: none;
+}
+.container .menu .right a {
+    display: none;
+}
+.container .menu .right span {
+    display: inline-block;
+    color: #fff;
+}
+/* banner*/
+.content .bg-mobile {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* new */
+.content .new .item {
+    width: 100%;
+}
+.new .item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+}
+.new .item:nth-child(1)>div {
+    width: 100%;
+}
+.new .item:nth-child(2)>div {
+    width: 100%;
+    margin-left: 0;
+}
+.new .item:nth-child(3)>div {
+    width: 100%;
+    margin-left: 0;
+}
+.new .item:not(:first-child) {
+    margin-top: 50px;
+}
+
+/* users */
+.IpsumFeugiat .IpsumFeugiat_content .item_row{
+    width: 46%;
+}
+.IpsumFeugiat .IpsumFeugiat_content .item_row:nth-child(1) {
+    margin-bottom: 2em;
+}
+.IpsumFeugiat .IpsumFeugiat_content .item_row:nth-child(2) {
+    margin-bottom: 2em;
+}
+
+/* pecial */
+.Dignissim .row .Dignissim_item {
+    width: 100%;
+}
+.Dignissim .row .Dignissim_item:nth-child(1) {
+    margin-bottom: 3em;
+}
+
+/* footer */
+.content .footer .footer_content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footer .footer_content .footer_left ,
+.footer .footer_content .footer_right {
+    justify-content: center;
+    text-align: center;
+}
+.footer .footer_content .footer_right {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

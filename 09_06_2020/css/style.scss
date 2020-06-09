@@ -1,0 +1,17 @@
+@import 'color' ;
+$a : 100px ;
+$b : 200px ;
+.wrapper {
+    .red {
+        width: 100px;
+        height: ($a + $b)/2;
+        background-color: $color-red;
+    }
+}
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: calc((#{$i}/12)*100%);
+    }
+}
+
+
